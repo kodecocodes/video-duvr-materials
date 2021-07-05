@@ -11,7 +11,7 @@ import Foundation
 extension Papr {
     enum Unsplash {
         static let host = "unsplash.com"
-        static let callbackURLScheme = "papr://"
+        static let callbackURLScheme = "papr"
         static let clientID = Secrets.clientID
         static let clientSecret = Secrets.clientSecret
         static let authorizeURL = "https://unsplash.com/oauth/authorize"

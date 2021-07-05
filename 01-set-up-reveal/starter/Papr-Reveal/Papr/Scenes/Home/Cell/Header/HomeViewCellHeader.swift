@@ -123,7 +123,7 @@ extension HomeViewCellHeader {
 
         outputs.updatedTime
             .subscribe(onNext: { [updatedTimeLabel] in
-                updatedTimeLabel.accessibilityLabel = "Upload date: \($0)"
+                updatedTimeLabel.accessibilityLabel = "Time since upload: \($0)"
             })
             .disposed(by: disposeBag)
     }

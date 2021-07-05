@@ -37,7 +37,7 @@ class BouncyView: UIView {
         messageLabel.font = UIFont.preferredFont(forTextStyle: .body)
         messageLabel.textColor = UIColor(hexString: "a3aab1")
         addSubview(messageLabel)
-        messageLabel.translatesAutoresizingMaskIntoConstraints = false  // add this
+        messageLabel.translatesAutoresizingMaskIntoConstraints = false
         messageLabel.centerXAnchor.constraint(equalTo: emojiLabel.centerXAnchor).isActive = true
         messageLabel.topAnchor.constraint(equalTo: emojiLabel.bottomAnchor, constant: 35.0).isActive = true
 

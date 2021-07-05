@@ -102,8 +102,8 @@ class HomeViewCellHeader: UIView, BindableType {
         self.addSubview(updatedTimeLabel)
         NSLayoutConstraint.activate([
             updatedTimeLabel.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -16.0),
+            updatedTimeLabel.centerYAnchor.constraint(equalTo: stackView.centerYAnchor),
             updatedTimeLabel.leftAnchor.constraint(equalTo: stackView.rightAnchor, constant: 8.0),
-          updatedTimeLabel.centerYAnchor.constraint(equalTo: stackView.centerYAnchor),
         ])
     }
 }
@@ -124,7 +124,7 @@ extension HomeViewCellHeader {
 
         outputs.updatedTime
             .subscribe(onNext: { [updatedTimeLabel] in
-                updatedTimeLabel.accessibilityLabel = "Upload date: \($0)"
+                updatedTimeLabel.accessibilityLabel = "Time since upload: \($0)"
             })
             .disposed(by: disposeBag)
     }

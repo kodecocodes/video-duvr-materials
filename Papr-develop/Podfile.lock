@@ -1,0 +1,66 @@
+PODS:
+  - Action (4.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - Differentiator (4.0.1)
+  - Hero (1.5.0)
+  - Nuke (8.3.1)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxNuke (0.11.0):
+    - Nuke (~> 8.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - TinyNetworking/Core (4.0.0)
+  - TinyNetworking/RxSwift (4.0.0):
+    - RxSwift (~> 5.0)
+    - TinyNetworking/Core
+  - VanillaConstraints (1.0.4)
+
+DEPENDENCIES:
+  - Action
+  - Hero
+  - RxCocoa
+  - RxDataSources
+  - RxNuke
+  - RxSwift
+  - TinyNetworking/RxSwift
+  - VanillaConstraints
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Action
+    - Differentiator
+    - Hero
+    - Nuke
+    - RxCocoa
+    - RxDataSources
+    - RxNuke
+    - RxRelay
+    - RxSwift
+    - TinyNetworking
+    - VanillaConstraints
+
+SPEC CHECKSUMS:
+  Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  Nuke: 85fb80f8df0cb26c28d2f4e0cb7fb93bcd6548d3
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxNuke: 7c56f40f26bc3ec715cff5f5355119ca7989b010
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  TinyNetworking: c0b2cbfe8db8451e42c3371a3eecfc61538b310a
+  VanillaConstraints: 72ceb6f087b4467b22209d078e43819d8d331bf5
+
+PODFILE CHECKSUM: 43fcd37a5cb4640351c4a16caffa9814a3e3d6f8
+
+COCOAPODS: 1.5.2

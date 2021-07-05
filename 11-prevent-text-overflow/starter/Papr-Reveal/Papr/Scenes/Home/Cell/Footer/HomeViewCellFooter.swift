@@ -79,7 +79,7 @@ class HomeViewCellFooter: UIView, BindableType {
 
     private lazy var likeButton: UIButton = {
         let button = UIButton()
-      button.tintColor = .label
+        button.tintColor = .label
         return button
     }()
 

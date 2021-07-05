@@ -101,7 +101,7 @@ class HomeViewCell: UICollectionViewCell, BindableType,  ClassIdentifiable {
         contentView.addSubview(photoButton)
         NSLayoutConstraint.activate([
             photoButton.topAnchor.constraint(equalTo: contentView.topAnchor, constant: headerViewHeight),
-            photoButton.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -footerViewHeight),
+            photoButton.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: footerViewHeight),
             photoButton.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
             photoButton.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
         ])

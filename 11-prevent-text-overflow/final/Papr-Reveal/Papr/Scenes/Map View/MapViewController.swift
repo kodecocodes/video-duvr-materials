@@ -87,7 +87,6 @@ extension MapViewController: MKMapViewDelegate {
         annotationView?.canShowCallout = true
         annotationView?.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
         annotationView?.centerOffset = CGPoint(x: 0, y: -30)
-
         return annotationView
     }
 }

@@ -96,7 +96,7 @@ class SearchViewController: UIViewController, BindableType {
         searchBar.placeholder = "Search Unsplash"
         navigationItem.titleView = searchBar
 
-        searchBar.heightAnchor.constraint(equalToConstant: 44).isActive = true
+        // searchBar.heightAnchor.constraint(equalToConstant: 44).isActive = true
     }
 
     private func configureTableView() {
